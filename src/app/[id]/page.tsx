@@ -16,7 +16,7 @@ interface Book {
 export default function BookDetail({ params }: { params: { id: string } }) {
   const [book, setBook] = useState<Book | null>(null);
 
-  useEffect(() => {
+  useEffect(() => {  
     
     const books = [
       {
